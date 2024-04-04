@@ -64,3 +64,4 @@ inpred <- (ytrain1<= upp) & (ytrain1>=low)
 for (i in 1:n) points(i,ynew[or[i]]-quant[or[i],
                                           2],col=as.numeric(inpred)[i]+2,pch=20)
 ```
+Contoh hasil prediksi interval dari model QRF dengan $\tau=(0,05;0,01)$ untuk data pendapatan dapat dilihat pada gambar berikut
