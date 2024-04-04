@@ -7,3 +7,4 @@ Fungsi sebaran ini digunakan untuk menkonstruksi kuantil. Secara umum persamaan 
 Untuk menduga fungsi sebaran bersyarat maka digunakan sebaran tertimbang dari peubah respon yakni dengan 
 	$$\hat{F}(Y|X=x)=\sum\limits_{i=1}^n w_i(x)1_{Y_i \leq y\} $$
 dengan $w_i(x)=\frac{1}{k}\sum\limits_{i=1}^k w_i(x,\theta_t)$
+Sebagai ilustrasi, kami menggunakan data pendapatan (tersedia oleh author). Untuk menjalankan regresi hutan kuantil di RStudio, lakukan penginstalan paket (package) quantregForest dari CRAN dengan kode berikut:
